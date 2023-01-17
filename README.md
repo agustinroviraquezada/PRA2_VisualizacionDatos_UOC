@@ -2,8 +2,8 @@
 
 Código y visualizaciones creadas para la resolución de la PRA2 de la asignatura Visualización de datos, Clase M2.859, Universidad abierta de Cataluña.
 
-Alumno:Agustín Rovira
-email: arovirarovi@uoc.edu
+Alumno:Agustín Rovira   
+email: arovirarovi@uoc.edu   
 
 Enunciado
 En esta segunda parte de la práctica, el estudiante tendrá que desarrollar una visualización de datos que demuestre su conocimiento del campo, así como el uso de diferentes herramientas y técnicas, basadas en el conjunto de datos seleccionado y validado en la primera parte de la práctica.
