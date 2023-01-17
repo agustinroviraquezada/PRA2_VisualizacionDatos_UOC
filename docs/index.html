@@ -68,15 +68,16 @@
          
          El dataset original fue publicado en kaggle https://www.kaggle.com/datasets/thec03u5/fifa-18-demo-player-dataset. Los datos se extraen del sitio web https://sofifa.com extrayendo los datos personales del jugador y las identificaciones del jugador y luego las estadísticas de juego y estilo.
 
-         El dataset continen:   
-            * Cada jugador que aparece en FIFA 18  
-            * más de 70 atributos  
-            * Imágenes de jugador y bandera  
-            * Datos de posición de reproducción  
-            * Atributos basados en datos reales del último juego FIFA 18 de EA   
-            * Los atributos incluyen todas las estadísticas de estilo de jugador, como Dribbling, Aggression, GK Skills, etc.   
-            * Datos personales del jugador como nacionalidad, foto, club, edad, sueldo, salario, etc.
-
+         El dataset continen:
+         <ul>
+            <li>Cada jugador que aparece en FIFA 18</li>  
+            <li>más de 70 atributos</li>   
+            <li>Imágenes de jugador y bandera  </li> 
+            <li>Datos de posición de reproducción  </li> 
+            <li>Atributos basados en datos reales del último juego FIFA 18 de EA </li>   
+            <li>Los atributos incluyen todas las estadísticas de estilo de jugador, como Dribbling, Aggression, GK Skills, etc. </li>   
+            <li>Datos personales del jugador como nacionalidad, foto, club, edad, sueldo, salario, etc.</li> 
+         </ul>
          Asi dicho dataset original está conformado por 72 variables numéricas y 4 variables categóricas
          
       </p>
@@ -97,10 +98,12 @@
       <div>
          <p>
            <hr />
-            Primeramente se realiza una agrupacion de las posiciones de los jugadores en el campo. Dicha agrupacion se lleva a cabo mediante una media no poderada. Se agrupan en 3 categorias:   
-            * Attackers: 'ST', 'LW', 'RW','CF',"RS","LF","LS"
-            * Midfielders: 'CAM', 'LM', 'CM', 'RM', 'CDM',"RAM","RF","LAM","LCM","LW"
-            * Defenders: 'LWB', 'RWB', 'LB', 'CB', 'RB',"RDM","RCM","RCB","LB","LCB","LDM","LM","LWB"
+            <ul>
+               Primeramente se realiza una agrupacion de las posiciones de los jugadores en el campo. Dicha agrupacion se lleva a cabo mediante una media no poderada. Se agrupan en 3 categorias:   
+               <li> Attackers: 'ST', 'LW', 'RW','CF',"RS","LF","LS"</li> 
+               <li> Midfielders: 'CAM', 'LM', 'CM', 'RM', 'CDM',"RAM","RF","LAM","LCM","LW"</li> 
+               <li> Defenders: 'LWB', 'RWB', 'LB', 'CB', 'RB',"RDM","RCM","RCB","LB","LCB","LDM","LM","LWB"</li> 
+            </ul>
             <hr />
          </p>   
       </div>
@@ -118,13 +121,14 @@
                Nuestro interés aquí es encontrar los jugadores adecuados para nuestro equipo y formacion. Como dijimos, la elección del jugador debe basarse en sus atributos. Dado que hay mas de 15 atributos, los agruparemos en 6 atributos basicos que nos den un vistazo completo del jugador.
 
                Sin embargo no todos los atributos valen los mismo dependiendo de la categoria o posicion en la que juego dicho juegador, por ello la agrupacion se realizara mediante una media ponderada. Tal que:
-
-               * Pace | Sprint Speed (55%), Acceleration (45%)
-               * Shooting | Finishing (45%), Long Shots (20%), Shot Power (20%), Volleys (5%), Att. Positioning (5%), Penalties (5%)
-               * Passing | Short Pass (35%), Crossing (20%), Vision (20%), Long Pass (15%), Curve (5%), FK Accuracy (5%)
-               * Dribbling | Dribbling (50%), Ball COntrol (35%), Agility (10%), Balance (5%)
-               * Defending | Stand Tackle (30%), Defensive Awareness (30%), Interceptions (20%), Heading Acc (10%), Slide Tackle (10%)
-               * Physical | Strength (50%), Stamina (25%), Aggression (20%), Jumping (5%)
+               <ul>
+               <li> Pace | Sprint Speed (55%), Acceleration (45%)</li>
+               <li> Shooting | Finishing (45%), Long Shots (20%), Shot Power (20%), Volleys (5%), Att. Positioning (5%), Penalties (5%)</li>
+               <li> Passing | Short Pass (35%), Crossing (20%), Vision (20%), Long Pass (15%), Curve (5%), FK Accuracy (5%)</li>
+               <li> Dribbling | Dribbling (50%), Ball COntrol (35%), Agility (10%), Balance (5%)</li>
+               <li> Defending | Stand Tackle (30%), Defensive Awareness (30%), Interceptions (20%), Heading Acc (10%), Slide Tackle (10%)</li>
+               <li> Physical | Strength (50%), Stamina (25%), Aggression (20%), Jumping (5%)</li>
+               </ul>
             <hr />
          </p>
       </div>
