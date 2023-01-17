@@ -62,11 +62,60 @@
             <p>Descripción técnica, relevancia del conjunto de datos en su contexto y complejidad (medida, variables disponibles, tipos de datos, …), comentando los datos que se muestran en la visualización.</p>
          <hr />
       </div>
+      
+      
+      <p>
+         
+         El dataset original fue publicado en kaggle https://www.kaggle.com/datasets/thec03u5/fifa-18-demo-player-dataset. Los datos se extraen del sitio web https://sofifa.com extrayendo los datos personales del jugador y las identificaciones del jugador y luego las estadísticas de juego y estilo.
 
+         El dataset continen:   
+            * Cada jugador que aparece en FIFA 18  
+            * más de 70 atributos  
+            * Imágenes de jugador y bandera  
+            * Datos de posición de reproducción  
+            * Atributos basados en datos reales del último juego FIFA 18 de EA   
+            * Los atributos incluyen todas las estadísticas de estilo de jugador, como Dribbling, Aggression, GK Skills, etc.   
+            * Datos personales del jugador como nacionalidad, foto, club, edad, sueldo, salario, etc.
+
+         Asi dicho dataset original está conformado por 72 variables numéricas y 4 variables categóricas
+         
+      </p>
+      
+      
+      
+      
+      
+      <div id="enunciado" class="section level1">
+      <h2><span class="header-section-number">2.</span> Integración y selección</h2>
+      <hr />
+      Seleccionaremos y crearemos las variables necesarias para iniciar con el analsis exploratorio y las visualizaciones
+      <hr />
+      </div>
+
+      
+      <h3> Agrupacion del score  por posiciones en el campo</h3>
+      <div>
+      <hr />
+      <p>
+      Primeramente se realiza una agrupacion de las posiciones de los jugadores en el campo. Dicha agrupacion se lleva a cabo mediante una media no poderada. Se agrupan en 3 categorias:   
+      * Attackers: 'ST', 'LW', 'RW','CF',"RS","LF","LS"
+      * Midfielders: 'CAM', 'LM', 'CM', 'RM', 'CDM',"RAM","RF","LAM","LCM","LW"
+      * Defenders: 'LWB', 'RWB', 'LB', 'CB', 'RB',"RDM","RCM","RCB","LB","LCB","LDM","LM","LWB"
+      <hr />
+      </p>   
+      </div>
+      
+      
+      
+      
+      
+      
+      
        <!-- ############################################## -->
       <center><iframe src="./test.html" height="400" width="600"frameBorder="0"></iframe></center>
       </body>
    
+      
    
 
 
