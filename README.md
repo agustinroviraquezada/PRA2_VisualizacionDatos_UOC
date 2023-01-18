@@ -11,6 +11,13 @@
               <p style="margin: 0; text-align:right; padding-button: 100px;">Estudios de Informática, Multimedia y Telecomunicación</p>
           </div>
       </div>
+      
+      <div style="width:100%;">&nbsp;</div>
+      <div class="row" style="background: #FCB517;padding: 10px 20px;">
+         <div class="col-md-6">
+            <div style="text-align:center;"> </div>
+         </div>
+      </div>  
 
 # A9: Creación de la visualización y entrega del proyecto
 
