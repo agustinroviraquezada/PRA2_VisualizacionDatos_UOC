@@ -82,7 +82,7 @@
       </p>
       
       
-      <center><img src="./OriginalVar.PNG" alt="Variables originales" width="150" height="300"></center>
+      <center><img src="./OriginalVar.PNG" alt="Variables originales" width="150" height="250"></center>
       
       <!-- ############################################## -->
       <div id="enunciado" class="section level1">
@@ -110,7 +110,7 @@
          </p>   
       </div>
 
-      <center><img src="./NewVar.PNG" alt="Variables originales" width="200" height="400"></center>
+      <center><img src="./NewVar.PNG" alt="Variables originales" width="200" height="300"></center>
       
       <!-- ############################################## -->
       <br>
@@ -154,7 +154,7 @@
       </div>
 
 
-      <center><img src="./NewVar2.PNG" alt="Variables originales" width="200" height="400"></center>
+      <center><img src="./NewVar2.PNG" alt="Variables originales" width="300" height="250"></center>
        
       <div id="Preguntas" class="section level1">
       <h2><span class="header-section-number">3.</span> ¿Preguntas responde la visualización de datos?</h2>
@@ -183,13 +183,39 @@
       </div>
 
       <h4>Wage</43>
+      <p>
+         Podemos observar, analizando el grafico interactivo, que la mayoria de jugadores se concentran en un wage de 100k a 300k. Siendo os demas "outliers"
+         Todos os jugadore por abajo tienen menos nivel como centro campista, ataque y defensa. Por otro lado todos los que estan por encima tiene unos sueldos
+         astronomico, asi Cristiano y Mesi estan en el punto mas alto del scatter plot.<br/>
+         <br/>
+         
+         De esta visualizacion se desprende que podemos filtrar los jugadores de acuerdo al salario de su contrato. Estableceremos un limite de salario que estamos
+         dispuestos a pagar. Este limite sera 200K, es decir todos aquellos jugadores que tengan un wage por encima de 200k seran eliminados.<br/>
+         <br/>
+         
+         En cuanto al grafico, se puede ver que hemos diferenciado los clubes en el scatter plot. Esto se hizo con la finalidad de encontrar algun patron en los clubes. Sin embargo
+         como se observa no hay patrones por clubes.<br/>
+         <br/>
+      </p>
       <center><iframe src="./ScatterAttack.html" height="500" width="1100"frameBorder="0"></iframe></center>
       <center><iframe src="./ScatterMidfi.html" height="500" width="1100"frameBorder="0"></iframe></center>
       <center><iframe src="./ScatterDef.html" height="500" width="1100"frameBorder="0"></iframe></center>
       <br>
 
-      <h4>Wage</43>
+      <h4>Market Value</43>
       <center><img src="./ScatterDist.png" alt="Scatter plot Value vs Score" width="1000" height="350"></center>
+
+      <p>
+         Tras el filtrado por wage, analizamos el valor de mercado de los jugadores vs su score en abse a suposicion del campo (atacante, defensa, mediocampista).<br/>
+         <br/>
+         
+         En este scatter plot combinado con la distribucion, lo que podemos observar es que al igual que con el wage muchos buenos jugadores se concentran por debajo de los 
+         200M. Por lo tanto no necesitamos pagar mas de 200M por un jugador. De esta forma realizaremos otro filtrado para elegir jugadores con precio de mercado inferior a 150M
+         
+       
+         <br/>
+      </p>
+
 
 
       <div id="Preguntas-32" class="section level2">
