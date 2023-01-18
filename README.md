@@ -12,11 +12,7 @@
           </div>
       </div>
       
-      <div class="row" style="background: #FCB517;padding: 10px 20px;">
-         <div class="col-md-6">
-            <div style="text-align:center;"> </div>
-         </div>
-      </div>  
+
 
 # A9: Creación de la visualización y entrega del proyecto
 
